@@ -1,10 +1,10 @@
 # poc-2020
 ## postgre db connection:
-host: 9.112.160.82
-port: 54320
-db: homework
-user: postgres
-password: 123456789
+- host: 9.112.160.82
+- port: 54320
+- db: homework
+- user: postgres
+- password: 123456789
 目前有一个表，users
 CREATE TABLE public.users (
 	id serial NOT NULL,
