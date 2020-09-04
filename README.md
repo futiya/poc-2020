@@ -29,4 +29,4 @@ CREATE TABLE public.users (
 ### DELETE /api/vi/users/{id}
 删除指定用户
 ## 技术
-* java: spring boot + spring JPA or mybatis
+* java: spring boot + mybatis
