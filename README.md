@@ -7,16 +7,14 @@
 - password: 123456789
 
 目前有一个表，users
-'''
-CREATE TABLE public.users (
+```CREATE TABLE public.users (
 	id serial NOT NULL,
 	email varchar(70) NULL,
 	"name" varchar(70) NULL,
 	"managerId" int4 NULL,
 	"createdAt" timestamptz NOT NULL,
 	"updatedAt" timestamptz NOT NULL
-);
-'''
+);```
 ## 实现
 ### GET /api/v1/users
 返回所有用户
