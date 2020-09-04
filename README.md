@@ -5,6 +5,7 @@
 - db: homework
 - user: postgres
 - password: 123456789
+
 目前有一个表，users
 CREATE TABLE public.users (
 	id serial NOT NULL,
